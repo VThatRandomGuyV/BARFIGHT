@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3rgf4rjhj6c7"]
+
+[ext_resource type="Texture2D" uid="uid://bsqd2htdn1hf8" path="res://Assets/normalFighter.png" id="1_5t7id"]
+[ext_resource type="Script" uid="uid://byxanxrmjrlj4" path="res://Scripts/fighterScript.gd" id="2_wiwym"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(558, 353)
+texture = ExtResource("1_5t7id")
+script = ExtResource("2_wiwym")
