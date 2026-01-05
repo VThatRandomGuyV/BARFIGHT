@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kbw1ep7xy4j5"
-path="res://.godot/imported/rightFighter.png-5de5b801a7e7ec5f7e8db4aabe0e76ca.ctex"
+uid="uid://ktkcy71xsg8r"
+path="res://.godot/imported/leftPrepFighter.png-ec334175f0169eda984595cba6cb2a05.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/rightFighter.png"
-dest_files=["res://.godot/imported/rightFighter.png-5de5b801a7e7ec5f7e8db4aabe0e76ca.ctex"]
+source_file="res://Assets/Test/leftPrepFighter.png"
+dest_files=["res://.godot/imported/leftPrepFighter.png-ec334175f0169eda984595cba6cb2a05.ctex"]
 
 [params]
 

@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3rgf4rjhj6c7"]
+
+[ext_resource type="Script" uid="uid://byxanxrmjrlj4" path="res://Scripts/Test/fighterScript.gd" id="1_e6aar"]
+[ext_resource type="Script" uid="uid://6yj02jniaf75" path="res://Scripts/Test/plaeyr.gd" id="1_qq1tx"]
+[ext_resource type="Texture2D" uid="uid://bsqd2htdn1hf8" path="res://Assets/Test/normalFighter.png" id="2_qq1tx"]
+
+[node name="TestScene" type="Node2D"]
+
+[node name="PLayer" type="Node2D" parent="."]
+script = ExtResource("1_qq1tx")
+
+[node name="Enemy" type="Node2D" parent="."]
+script = ExtResource("1_e6aar")
+
+[node name="Sprite2D" type="Sprite2D" parent="Enemy"]
+position = Vector2(558, 353)
+texture = ExtResource("2_qq1tx")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Control"]
+
+[node name="Label" type="Label" parent="Control/CanvasLayer"]
+offset_left = 477.0
+offset_top = 159.0
+offset_right = 630.0
+offset_bottom = 183.0
+text = "Hits: 0"
