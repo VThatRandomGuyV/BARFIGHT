@@ -1,6 +1,6 @@
 extends Node2D
 @onready var sprite: Sprite2D = $Sprite2D
-@onready var player: Node2D = $"../PLayer"
+@onready var player: Node2D = $"../Player"
 
 # Alliases to access states easier 
 var attacks = FighterStates.Attack

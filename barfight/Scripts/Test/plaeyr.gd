@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var label: Label = $"../Control/CanvasLayer/Label"
+@onready var label: Label = $"../Control/CanvasLayer/Hits Taken"
 
 # Alliases to access states easier 
 var attack_states = FighterStates.Attack
