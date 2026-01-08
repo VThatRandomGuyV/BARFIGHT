@@ -4,9 +4,9 @@
 [ext_resource type="Script" uid="uid://6yj02jniaf75" path="res://Scripts/Test/FightTest/plaeyr.gd" id="1_qq1tx"]
 [ext_resource type="Texture2D" uid="uid://bsqd2htdn1hf8" path="res://Assets/Test/normalFighter.png" id="2_qq1tx"]
 
-[node name="TestScene" type="Node2D"]
+[node name="FightTest" type="Node2D"]
 
-[node name="PLayer" type="Node2D" parent="."]
+[node name="Player" type="Node2D" parent="."]
 script = ExtResource("1_qq1tx")
 
 [node name="Enemy" type="Node2D" parent="."]
@@ -24,7 +24,7 @@ offset_bottom = 40.0
 
 [node name="CanvasLayer" type="CanvasLayer" parent="Control"]
 
-[node name="Label" type="Label" parent="Control/CanvasLayer"]
+[node name="Hits Taken" type="Label" parent="Control/CanvasLayer"]
 offset_left = 477.0
 offset_top = 159.0
 offset_right = 630.0
