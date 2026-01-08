@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://c3rgf4rjhj6c7"]
 
-[ext_resource type="Script" uid="uid://byxanxrmjrlj4" path="res://Scripts/Test/fighterScript.gd" id="1_e6aar"]
-[ext_resource type="Script" uid="uid://6yj02jniaf75" path="res://Scripts/Test/plaeyr.gd" id="1_qq1tx"]
+[ext_resource type="Script" uid="uid://byxanxrmjrlj4" path="res://Scripts/Test/FightTest/fighterScript.gd" id="1_e6aar"]
+[ext_resource type="Script" uid="uid://6yj02jniaf75" path="res://Scripts/Test/FightTest/plaeyr.gd" id="1_qq1tx"]
 [ext_resource type="Texture2D" uid="uid://bsqd2htdn1hf8" path="res://Assets/Test/normalFighter.png" id="2_qq1tx"]
 
 [node name="TestScene" type="Node2D"]
