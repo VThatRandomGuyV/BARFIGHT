@@ -1,3 +1,13 @@
 [gd_scene format=3 uid="uid://dfh7nu7y3u8ie"]
 
 [node name="DrinkMakingTest" type="Node2D"]
+
+[node name="DrinkBuilder" type="Node2D" parent="."]
+
+[node name="VisualCup" type="Node2D" parent="."]
+
+[node name="Drink1" type="Sprite2D" parent="VisualCup"]
+
+[node name="Drink2" type="Sprite2D" parent="VisualCup"]
+
+[node name="Drink3" type="Sprite2D" parent="VisualCup"]
