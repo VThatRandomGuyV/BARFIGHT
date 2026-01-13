@@ -4,6 +4,7 @@ class_name Ingredient
 enum Category {
 	BASE,
 	SWEETENER,
+	MIXER,
 	GARNISH,
 	ICE
 }
