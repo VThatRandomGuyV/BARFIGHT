@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://carv8m3bvgdwi"
-path="res://.godot/imported/rightPrepFighter.png-fd0cbb0754e03d88f6c0268a4913753c.ctex"
+uid="uid://creq38n77m8rh"
+path="res://.godot/imported/drinks_counter.png-bb6f1dbec98133cfe218394485baa5c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Test/rightPrepFighter.png"
-dest_files=["res://.godot/imported/rightPrepFighter.png-fd0cbb0754e03d88f6c0268a4913753c.ctex"]
+source_file="res://Assets/BarTest/bar fight!/drink making/drinks_counter.png"
+dest_files=["res://.godot/imported/drinks_counter.png-bb6f1dbec98133cfe218394485baa5c5.ctex"]
 
 [params]
 
