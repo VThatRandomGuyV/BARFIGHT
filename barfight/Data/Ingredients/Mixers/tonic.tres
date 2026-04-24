@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://c75nnnq3x454g"]
+
+[ext_resource type="Script" uid="uid://b6jc0rnqoyqj4" path="res://Scripts/Test/DrinkMixingTest/ingredient.gd" id="1_quhq5"]
+
+[resource]
+script = ExtResource("1_quhq5")
+metadata/_custom_type_script = "uid://b6jc0rnqoyqj4"
