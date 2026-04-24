@@ -1,13 +1,51 @@
-[gd_scene format=3 uid="uid://dfh7nu7y3u8ie"]
+[gd_scene format=3 uid="uid://cavnxxbay1hm6"]
 
-[node name="DrinkMakingTest" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://b4m7g4pg7fg4j" path="res://Assets/BarTest/bar fight!/drink making/drinks_bg.png" id="1_7jexj"]
+[ext_resource type="Texture2D" uid="uid://creq38n77m8rh" path="res://Assets/BarTest/bar fight!/drink making/drinks_counter.png" id="2_cmsv7"]
+[ext_resource type="Texture2D" uid="uid://b8uu1onv3jpw6" path="res://Assets/BarTest/bar fight!/drink making/drinks_vignette.png" id="3_s05wc"]
+[ext_resource type="Texture2D" uid="uid://dadpjpbc8o1pg" path="res://Assets/BarTest/bar fight!/drink making/flute_glass.png" id="4_lem2x"]
+[ext_resource type="Texture2D" uid="uid://dxkushjtyhsha" path="res://Assets/BarTest/bar fight!/drink making/notebook/notebook_addins.png" id="5_36ub5"]
 
-[node name="DrinkBuilder" type="Node2D" parent="."]
+[node name="DrinkMakingTest" type="Node2D" unique_id=1903028655]
 
-[node name="VisualCup" type="Node2D" parent="."]
+[node name="Backgrounds" type="Node2D" parent="." unique_id=316762023]
+position = Vector2(575, 325)
 
-[node name="Drink1" type="Sprite2D" parent="VisualCup"]
+[node name="DrinksBg" type="Sprite2D" parent="Backgrounds" unique_id=32814622]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_7jexj")
 
-[node name="Drink2" type="Sprite2D" parent="VisualCup"]
+[node name="DrinksCounter" type="Sprite2D" parent="Backgrounds" unique_id=871902751]
+visible = false
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_cmsv7")
 
-[node name="Drink3" type="Sprite2D" parent="VisualCup"]
+[node name="DrinksVignette" type="Sprite2D" parent="Backgrounds" unique_id=1228751110]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("3_s05wc")
+
+[node name="CurrentDrink" type="Node2D" parent="." unique_id=1052080061]
+position = Vector2(575, 325)
+
+[node name="FluteGlass" type="Sprite2D" parent="CurrentDrink" unique_id=1645179290]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_lem2x")
+
+[node name="VisualCup" type="Node2D" parent="CurrentDrink" unique_id=1654082957]
+position = Vector2(-575, -325)
+
+[node name="Drink1" type="Sprite2D" parent="CurrentDrink/VisualCup" unique_id=1252118238]
+
+[node name="Drink2" type="Sprite2D" parent="CurrentDrink/VisualCup" unique_id=429821371]
+
+[node name="Drink3" type="Sprite2D" parent="CurrentDrink/VisualCup" unique_id=1713166066]
+
+[node name="DrinkBuilder" type="Node2D" parent="CurrentDrink" unique_id=994148181]
+position = Vector2(-575, -325)
+
+[node name="Notebook" type="Node2D" parent="." unique_id=1915529597]
+position = Vector2(575, 325)
+
+[node name="NotebookAddins" type="Sprite2D" parent="Notebook" unique_id=736933722]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("5_36ub5")
