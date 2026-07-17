@@ -15,11 +15,11 @@ var attack_right_texture: Texture2D
 
 func _ready():
 	# Load images into memory
-	standby_texture = load("res://Assets/FightTest/normalFighter.png")
-	attack_left_texture = load("res://Assets/FightTest/leftFighter.png")
-	attack_left_prep_texture = load("res://Assets/FightTest/leftPrepFighter.png")
-	attack_right_texture = load("res://Assets/FightTest/rightFighter.png")
-	attack_right_prep_texture = load("res://Assets/FightTest/rightPrepFighter.png")
+	standby_texture = load("res://Assets/Test/normalFighter.png")
+	attack_left_texture = load("res://Assets/Test/leftFighter.png")
+	attack_left_prep_texture = load("res://Assets/Test/leftPrepFighter.png")
+	attack_right_texture = load("res://Assets/Test/rightFighter.png")
+	attack_right_prep_texture = load("res://Assets/Test/rightPrepFighter.png")
 
 	# Start with standby
 	sprite.texture = standby_texture

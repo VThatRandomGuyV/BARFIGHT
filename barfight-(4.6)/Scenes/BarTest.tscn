@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://c5s7s1abkheep"]
+
+[ext_resource type="Texture2D" uid="uid://g5uc78fexh4l" path="res://Assets/BarTest/bar fight!/bar interior/bar_background.png" id="1_ofjtf"]
+[ext_resource type="Texture2D" uid="uid://cuu80i5ek1mm" path="res://Assets/BarTest/bar fight!/bar interior/bar_tables.png" id="2_i2n74"]
+[ext_resource type="Texture2D" uid="uid://b4do7sc0daxat" path="res://Assets/BarTest/bar fight!/bar interior/bar_bg_overlay.png" id="2_txaaa"]
+[ext_resource type="Texture2D" uid="uid://di4vp61ojkcxw" path="res://Assets/BarTest/bar fight!/bar interior/bar_bg_overlay2.png" id="3_ye2wp"]
+[ext_resource type="Texture2D" uid="uid://coy0ydbgcp5j5" path="res://Assets/BarTest/bar fight!/bar interior/bar_lights.png" id="4_a5net"]
+[ext_resource type="Texture2D" uid="uid://bfuxfkixcgnxe" path="res://Assets/BarTest/bar fight!/bar interior/bar_lighting.png" id="5_2p5fs"]
+[ext_resource type="Texture2D" uid="uid://d2e2bsct38l8q" path="res://Assets/BarTest/bar fight!/bar interior/bar_vingette.png" id="7_7pddp"]
+[ext_resource type="Texture2D" uid="uid://bsqd2htdn1hf8" path="res://Assets/FightTest/normalFighter.png" id="8_unc4h"]
+[ext_resource type="Texture2D" uid="uid://ktkcy71xsg8r" path="res://Assets/FightTest/leftPrepFighter.png" id="9_8nf3r"]
+[ext_resource type="Texture2D" uid="uid://kbw1ep7xy4j5" path="res://Assets/FightTest/rightFighter.png" id="10_ygh4t"]
+[ext_resource type="Texture2D" uid="uid://carv8m3bvgdwi" path="res://Assets/FightTest/rightPrepFighter.png" id="11_ieq8c"]
+[ext_resource type="Texture2D" uid="uid://ka2qswxkthcq" path="res://Assets/BarTest/bar fight!/bar interior/bar_counter.png" id="12_wgaku"]
+[ext_resource type="Texture2D" uid="uid://8at8qqbsb83b" path="res://Assets/BarTest/bar fight!/bar interior/bar_drink_spots.png" id="13_2l4nd"]
+
+[node name="BarTest" type="Node2D" unique_id=48779312]
+
+[node name="Backgrounds" type="Node2D" parent="." unique_id=1603999941]
+position = Vector2(575, 325)
+
+[node name="BarBackground" type="Sprite2D" parent="Backgrounds" unique_id=1895354817]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_ofjtf")
+
+[node name="BarTables" type="Sprite2D" parent="Backgrounds" unique_id=85314429]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_i2n74")
+
+[node name="BarBgOverlay" type="Sprite2D" parent="Backgrounds" unique_id=344439673]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_txaaa")
+
+[node name="BarLights" type="Sprite2D" parent="Backgrounds" unique_id=1696093479]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_a5net")
+
+[node name="BarLighting" type="Sprite2D" parent="Backgrounds" unique_id=1087845643]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("5_2p5fs")
+
+[node name="BarBgOverlay2" type="Sprite2D" parent="Backgrounds" unique_id=410682436]
+visible = false
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("3_ye2wp")
+
+[node name="BarVingette" type="Sprite2D" parent="Backgrounds" unique_id=859891634]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("7_7pddp")
+
+[node name="Customers" type="Node2D" parent="Backgrounds" unique_id=70900908]
+scale = Vector2(0.6, 0.6)
+
+[node name="NormalFighter" type="Sprite2D" parent="Backgrounds/Customers" unique_id=541318387]
+position = Vector2(183.33333, 245)
+scale = Vector2(1.2538226, 1.4672132)
+texture = ExtResource("8_unc4h")
+
+[node name="LeftPrepFighter" type="Sprite2D" parent="Backgrounds/Customers" unique_id=1311638779]
+position = Vector2(-166.66666, 231.66666)
+scale = Vector2(1.2767584, 1.363388)
+texture = ExtResource("9_8nf3r")
+
+[node name="RightFighter" type="Sprite2D" parent="Backgrounds/Customers" unique_id=573445426]
+position = Vector2(528.3333, 238.33333)
+texture = ExtResource("10_ygh4t")
+
+[node name="RightPrepFighter" type="Sprite2D" parent="Backgrounds/Customers" unique_id=409377789]
+position = Vector2(-526.6666, 210)
+texture = ExtResource("11_ieq8c")
+
+[node name="BarCounter" type="Sprite2D" parent="Backgrounds" unique_id=708058488]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("12_wgaku")
+
+[node name="BarDrinkSpots" type="Sprite2D" parent="Backgrounds" unique_id=191957111]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("13_2l4nd")
