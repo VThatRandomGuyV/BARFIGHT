@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvspata75wwsl"
-path="res://.godot/imported/martini_liquid.png-8f1e5c4fedc4113aefacc0b29ab3dafa.ctex"
+uid="uid://b8uu1onv3jpw6"
+path="res://.godot/imported/drinks_vignette.png-7673722fba489a6f0568512bf47223a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/BarTest/bar fight!/drink making/martini_liquid.png"
-dest_files=["res://.godot/imported/martini_liquid.png-8f1e5c4fedc4113aefacc0b29ab3dafa.ctex"]
+source_file="res://Assets/BarTest/DrinkMaking/drinks_vignette.png"
+dest_files=["res://.godot/imported/drinks_vignette.png-7673722fba489a6f0568512bf47223a0.ctex"]
 
 [params]
 

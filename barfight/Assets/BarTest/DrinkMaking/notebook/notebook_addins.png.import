@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cuu80i5ek1mm"
-path="res://.godot/imported/bar_tables.png-a672df1db41c7b6eb5986c3cf2b2a4fa.ctex"
+uid="uid://dxkushjtyhsha"
+path="res://.godot/imported/notebook_addins.png-a03a309bb75819370f5a016229b5fea6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/BarTest/bar fight!/bar interior/bar_tables.png"
-dest_files=["res://.godot/imported/bar_tables.png-a672df1db41c7b6eb5986c3cf2b2a4fa.ctex"]
+source_file="res://Assets/BarTest/DrinkMaking/notebook/notebook_addins.png"
+dest_files=["res://.godot/imported/notebook_addins.png-a03a309bb75819370f5a016229b5fea6.ctex"]
 
 [params]
 
